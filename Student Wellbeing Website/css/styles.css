@@ -1,0 +1,326 @@
+body{
+	background-color: #ffffff;
+	margin: 0px auto	 
+}
+
+.page-wrapper{ 
+	padding-top: 50px;
+	width: 960px;
+	margin: 0px auto;
+}
+
+nav{
+	width: 100%; /* nav bar not inside page wrapper so it goes all the way across the screen*/
+	margin: 0px auto;
+	height: 55px;
+	background-color: #f59c9c;
+	position: fixed; /*When scrolling down the nav bar will stay at the top*/
+	top: 0;
+	overflow: auto;
+}
+
+nav > ul{
+	width: 1150px;
+	height: 55px;
+	margin: 0px auto;
+	background-color: #f59c9c;
+	text-align: center;
+	padding: 0px;
+}
+
+nav > ul > li{
+	list-style-type: none;
+	float: left;
+	height: 40px;
+	padding-top: 15px;
+	text-align: center;
+	width: 25%;
+}
+
+nav > ul > li > a{
+	font: 300 18px 'Tajawal', sans-serif;
+	text-decoration: none;
+	color: #ffffff;
+	background-color: #f59c9c;
+	padding: 16px 100px;
+	text-align: center;
+}
+
+nav > ul > li > a:hover{
+	background-color: #e59393; /* Change colour when hover over link */
+	transition: .2s ease; /* Makes the colour change more gradual - gives softer effect & looks more proffesional*/
+}
+
+header{
+	height: 90px;
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+
+/*font settings */
+h1{
+	display: inline-block;
+	font: 400 40px 'Alegreya Sans SC', sans-serif;
+	text-align: center;
+}
+
+h2{
+	font: 400 33px 'Alegreya Sans SC', sans-serif;
+	text-align: center;
+}
+
+p{
+	font: 400 16px/24px 'Tajawal', sans-serif;
+}
+
+header > div { /* the invisible div with the same dimensions as the logo to help center the title*/
+	width: 92px; 
+	height: 83px;
+	float: left;
+}
+
+header > img {
+	margin-top: 10px;
+	margin-right: 20px;
+	float: right;
+}
+
+#home-page-header{
+	width: 790px; 
+	height: 350px;
+	background-color: #fff4f4;
+	padding: 70px 80px 120px 90px;
+}
+
+#home-page-header > img{
+	width: 390px;
+	float: right;
+}
+
+#image-blurb {
+	width: 390px;
+	height: 180px;
+	text-align: center;
+	display: inline-block;
+}
+
+#image-blurb > p{
+	font: 300 14px/22px 'Source Sans Pro', sans-serif;
+}
+
+#image-blurb > h3{
+	font: 400 28px/8px 'Tajawal', sans-serif;
+	letter-spacing: 2px;
+	color: #2d2d2d
+}
+
+#banner{
+	width:100%;
+	height: 65px;
+	background-color: #417b8b;	
+	padding-top: 1px;
+	padding-bottom: 19px;
+}
+
+#banner > p{
+	text-align: center;
+	color: #ebebeb;
+	font: 300 28px 'Alegreya Sans SC', sans-serif; 
+}
+
+.button {
+  background-color: #f59c9c;
+  padding: 3px 15px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 100px; /*Will make the button have round edged*/
+}
+
+.button a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button:hover{
+	background-color: #e59393; /*button colour changes when hovered*/
+	transition: .2s ease;
+}
+
+#wellbeing-blurb{
+	padding: 50px 110px 70px;
+	text-align: center;
+}
+
+#school-blurb{
+	width: 100%;	
+	height: 350px;
+	background-color: #ffdad8;
+}
+
+#school-blurb> img{
+	float: left;
+}
+
+#school-blurb > div{
+	height: 230px;
+	width: 360px;
+	background-color:#ffdad8;	
+	text-align: center;
+	float: right;
+	padding: 60px;
+	padding: 55px 60px 65px;
+	color: #606060;
+	font: 400 16px/24px 'Tajawal', sans-serif;
+}
+
+#school-blurb > div > h3{
+	font: 300 30px/19px 'Alegreya Sans SC', sans-serif;
+}
+
+#more-articles{
+	width: 930px;
+	height: 360px;
+	background-color:;
+	margin-top: 60px;
+	text-align: center;
+	padding-right: 30px;
+}
+
+#more-articles > h2{
+	width: 960px;
+}
+
+.image-container{
+	width: 240px;
+	height: 170px;
+	float: right;
+	display: inline-block;
+	margin-right: 45px;
+	margin-top: 20px;
+}
+
+.image-container:hover{ /* Makes it fade slowly when hover over image */
+	opacity: 0.6;
+	transition: .5s ease; 
+}
+
+#more-articles > div > p{
+	font: 400 22px 'Alegreya Sans SC', sans-serif;
+}
+
+#wellbeing-quote{
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+
+#quote-image{
+	display: inline-block; 
+	margin-left: 20px;
+}
+
+#quote{
+	width: 440px;
+	height: 180px;
+	background-color: #f7f7f7;
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	padding:30px 50px 20px 60px;
+}
+
+#quote > p{
+	font: 400 30px 'Alegreya Sans SC', sans-serif;
+}
+
+/*Article Settings*/
+
+.large-article-image{
+	width: 800px;
+	margin: 0px auto;
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+
+.article-text{ 
+	width: 930px;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+
+.article-list{
+	font: 400 16px/24px 'Tajawal', sans-serif;
+}
+
+.article-subtitle{
+	font: 400 30px/22px 'Source Sans Pro', sans-serif;
+	color: #2d2d2d;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.paragraph{
+	margin-bottom: 30px;
+}
+
+.last-paragraph{
+	margin-bottom: 40px;
+}
+
+/*footer*/
+
+footer{
+	width: 100%; /* like the nav bar, the footer goes all the way across the screen.*/
+	height: 170px;
+	background-color: #417b8b;
+	bottom:0px;
+	margin-top: 90px;
+	margin: 0px auto;
+}
+
+.footer-container{
+	width: 960px; 
+	margin: 0 auto;
+}
+
+.footer-line{
+	border-color: #71a6b5;
+	width: 250px;
+	margin-top: 30px;
+	margin-bottom:20px;
+}
+
+.footer-container > p{
+	font: 400 14px/5px 'Tajawal', sans-serif;
+	color: #ffffff;
+}
+
+.footer-links{
+	width: 500px;
+	height: 25px;
+	margin: 0px auto;
+	text-align: center;
+	padding-top: 30px;
+	padding-right: 40px;
+}
+
+.footer-links > li{
+	list-style-type: none;
+	float: left;
+	height: 20px;
+	text-align: center;
+	width: 25%
+}
+
+.footer-links > li > a{
+	font: 300 16px 'Tajawal', sans-serif;
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+}
+
+.footer-links > li > a:hover{ /*Links go from white to grey when hovered*/
+	color: #c4c4c4;	
+	transition: .1s ease; 
+}
